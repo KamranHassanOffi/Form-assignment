@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <div class="back">
+        <a href="./main.html">
+            <img src="./back.png" width="40px">
+        </a>
+    </div>
+
+    <div class="whole">
+        <span class="img"><img src="./saylani logo.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="logo"></span>
+        <h1>Student Registration Form</h1><br><br>
+
+     <label for="First Name"><b>FIRST NAME:</b></label>
+     &nbsp &nbsp &nbsp &nbsp &nbsp
+     <input type="text" name="first name" id="first name"  placeholder="Enter Your First Name"> (max 30 characters a-z and A-Z)
+     <br><br>
+
+     <label for="LAST Name"><b>LAST NAME:</b></label>
+     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+     <input type="text" name="last name" id="last name" placeholder="Enter Your Last Name"> (max 30 characters a-z and A-Z)
+     <br><br>
+
+     <label for="date of bith"><b>DATE OF BIRTH:</b></label>
+     &nbsp &nbsp 
+     <input type="number" name="DOB" id="date of birth" placeholder="mm/dd/yyyy">
+     <br><br>
+     <label for="Email"><b>EMAIL:</b></label>
+     &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp
+     <input type="email" name="email" id="email" placeholder="Enter Your Email">
+     <br><br>
+
+     <label for="mobile number"><b>MOBILE NUMBER:</b></label>
+     &nbsp &nbsp 
+     <input type="tel" name="mobile no" id="mobile number" placeholder="Enter Your Mobile Number"> (10 Digits Numbers)
+     <br><br>
+     <label for="gender"><b>GENDER:</b></label>
+     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+       MALE
+     <input type="radio" name="Gender" id="male">
+
+      FEMALE
+      <input type="radio" name="Gender" id="female">
+      <br><br>
+
+      <label for="address"><b>ADDRESS:</b></label>
+      &nbsp &nbsp &nbsp
+      <textarea name="address" id="address"  cols="30" rows="5"></textarea>
+      <br><br>
+
+      <label for="city"><b>CITY:</b></label>
+      &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp
+      <input type="text" name="city" id="city" placeholder="Enter The City Name">  (max 30 characters a-z and A-Z)
+      <br><br>
+
+      <label for="pin code"><b>PIN CODE</b></label>
+      &nbsp &nbsp &nbsp 
+      <input type="number" name="pin code" id="pin code" placeholder="Enter 6 Digits Number"> (6 Digits Numbers)
+      <br><br>
+
+      <label for="state"><b>STATE</b></label>
+      &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp
+      <input type="text" name="state" id="state" placeholder="Enter State Name"> (max 30 characters a-z and A-Z)
+      <br><br>
+
+      <label for="country"><b>COUNTRY</b></label>
+      &nbsp &nbsp &nbsp
+      <input type="text" name="country" id="country" placeholder="Enter The Country Name">
+      <br><br>
+
+      <label for="hobbies"><b>HOBBIES:</b></label>
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp
+
+      Drawing
+      <input type="checkbox" name="checkbox" id="drawing">
+      &nbsp
+
+      Singing
+      <input type="checkbox" name="" id="">
+      &nbsp
+
+      dancing
+      <input type="checkbox" name="dancing" id="dancing">
+      &nbsp
+
+      sketching
+      <input type="checkbox" name="sketching" id="sketching">
+      &nbsp
+      <br>
+
+      other
+      <input type="checkbox" name="other" id="other">
+      
+      
+      <input type="text" >
+      <br><br>
+      <label for="Qualification"><b>QUALIFICATION</b></label> 
+
+      <table>
+
+        <tr>
+         <th>SI.NO </th>
+         <th>Examinaton</th>
+         <th>Board</th>
+         <th>Percentage</th>
+         <th>Year Of Passing</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Class X</td>
+            <td><input type="text" name="text"></td>
+            <td><input type="text" name="text"></td>
+            <td><input type="text" name="text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text" name="text"></td>
+            <td><input type="text" name="text"></td>
+            <td><input type="text" name="text"></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text" name="text"></td>
+            <td><input type="text" name="text"></td>
+            <td><input type="text" name="text"></td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Masters</td>
+            <td><input type="text" name="text"></td>
+            <td><input type="text" name="text"></td>
+            <td><input type="text" name="text"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td>(10 char max)</td>
+            <td>(upto 2 decimal)</td>
+           
+            
+        </tr>
+        
+    
+      </table>
+
+    <label for="course applied"><b>COURSES <br>APPLIED FOR:</b></label>
+    &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp
+     <select name="courses" id="courses">
+    <option value="">Select any course </option>  
+     <option >BCA </option>
+     <option>B.A</option>
+     <option>B.Sc</option>
+     <option>B.Com</option>
+ 
+     </select>
+     <br><br>
+    <label for="pic">Upload you pic
+        (only .png,.jpg,.jpeg formats allow)</label>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <div class="submitNreset">
+         <input type="submit">
+         <input type="reset">
+        </div>
+
+    </div>
+    
+</body>
+</html>
